@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    background-color: #eee;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  
+  .toggle {
+    appearance: none;
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .toggle:checked {
+    background-color: #4caf50;
+  }
+  
+  .toggle::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    left: 0;
+    transition: left 0.2s;
+  }
+  
+  .toggle:checked::before {
+    left: 30px;
+  }
+  

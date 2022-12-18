@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "WebCacheRedirector",
+    "description": "Opens Google Web Cache when a Google search result is clicked",
+    "version": "1.0",
+    "permissions": ["activeTab"],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
