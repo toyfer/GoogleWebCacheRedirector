@@ -6,7 +6,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://www.google.com/search/*",
+    "<all_urls>",
     "storage"
   ],
   "background": {
