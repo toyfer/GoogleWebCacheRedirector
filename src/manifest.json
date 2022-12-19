@@ -14,5 +14,7 @@
       "background.js"
     ]
   },
-  "default_popup": "popup.html"
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
 }
