@@ -3,7 +3,7 @@
     "name": "Google Web Cache Redirector",
     "description": "Redirects to the Google web cache version of a page when clicked from search results.",
     "version": "1.0",
-    "permissions": ["host","storage","webRequest","webRequestBlocking","activeTab"],
+    "permissions": ["https://www.google.com/*","storage","webRequest","webRequestBlocking","activeTab"],
     "background": {
       "scripts": ["background.js"]
     },
