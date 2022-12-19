@@ -7,6 +7,6 @@ chrome.webRequest.onBeforeRequest.addListener(
   return {redirectUrl: cacheUrl}; // 新しいURLにリダイレクト
   }
   },
-  {urls: ["*://www.google.com/search*"]}, // Google検索リンクをクリックする前にリクエストを確認するためのフィルター
+  {urls: ["://www.google.com/search"]}, // Google検索リンクをクリックする前にリクエストを確認するためのフィルター
   ["blocking"] // リクエストを完全にブロックするためのフラグ
   );
